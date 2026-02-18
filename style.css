@@ -80,3 +80,20 @@ footer { text-align: center; padding: 20px 0; font-size: 0.9rem; background-colo
   html {
   scroll-behavior: smooth;
 }
+.crypto-img {
+  width: 80px;       /* small floating coins/logos */
+  margin: 10px;
+}
+
+.hero-img {
+  width: 250px;      /* main hero image */
+  display: block;
+  margin: 30px auto 0 auto; /* centered under hero text */
+  animation: floatHero 5s ease-in-out infinite;
+}
+
+@keyframes floatHero {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
