@@ -49,7 +49,7 @@ footer { text-align: center; padding: 20px 0; font-size: 0.9rem; background-colo
 
 #crypto-ticker {
   position: move;
-  top: 0;
+  float: 0;
   width: 100%;
   background: rgba(0,0,0,0.8);
   color: #C9A227;
