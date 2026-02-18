@@ -105,17 +105,6 @@ async function fetchCrypto() {
   document.getElementById("marketcap").innerHTML = "Global Market Cap: $" + 
     Math.round(data.data.total_market_cap.usd / 1e12) + "T";
 }
-
-fetchCrypto();
-setInterval(fetchCrypto, 60000); // update every 60 seconds
-</script>
-  <!-- Footer -->
-  <footer>
-    <p>© 2026 PrimeEdge Capital. All Rights Reserved.</p>
-  </footer>
-</body>
-</html>
-
 <canvas id="particles"></canvas>
 
 <script>
@@ -253,3 +242,14 @@ window.addEventListener("resize", () => {
   canvas.height = window.innerHeight;
 });
 </script>
+
+fetchCrypto();
+setInterval(fetchCrypto, 60000); // update every 60 seconds
+</script>
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 PrimeEdge Capital. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
+
