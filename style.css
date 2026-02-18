@@ -1,11 +1,14 @@
 /* Basic Reset */
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
 
-body { background-color: #0A1A2F; color: #fff; line-height: 1.6; }  
-{ background: linear-gradient(-45deg, #0A1A2F, #081428, #0d2240, #06132a);
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  background: linear-gradient(-45deg, #0A1A2F, #081428, #0d2240, #06132a);
   background-size: 400% 400%;
   animation: gradientBG 15s ease infinite;
-  color: #fff;
 }
 
 @keyframes gradientBG {
