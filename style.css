@@ -34,6 +34,3 @@ footer { text-align: center; padding: 20px 0; font-size: 0.9rem; background-colo
   #hero h1 { font-size: 2.2rem; }
   #hero h2 { font-size: 1.5rem; }
 }
-#contact i { margin-right: 10px; color: #7289DA; } /* Discord blue */
-#contact a { color: #fff; text-decoration: none; }
-#contact a:hover { color: #C9A227; }
